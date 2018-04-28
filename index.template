@@ -1,0 +1,16 @@
+<html>
+ <head>
+  <title>Solar System</title>
+ </head>
+ <body bgcolor=#808080>
+  <h1>Latest datas</h1>
+<p>
+</p>
+  <h1></h1>
+  <img src="output24.png">
+  <h1></h1>                                                                                                 
+  <img src="output48.png">    
+  <h1></h1>                                                                                                 
+  <img src="outputweek.png">     
+ </body>
+</html>

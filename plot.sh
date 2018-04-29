@@ -35,9 +35,9 @@ set key box linestyle 11
 plot "$TEMP" using 1:2 title "roof F1" with lines linestyle 1,\
      "$TEMP" using 1:4 title "tank bottom F3" with lines linestyle 2,\
      "$TEMP" using 1:6 title "tank top F6" with lines linestyle 3,\
-     "$TEMP" using 1:3 title "F2" with lines linestyle 8, \
-     "$TEMP" using 1:5 title "F4" with lines linestyle 7, \
-     "$TEMP" using 1:7 title "pump/3 %" with lines  linestyle 11, \
+     "$TEMP" using 1:3 title "solar pump from roof F2" with lines linestyle 8, \
+     "$TEMP" using 1:5 title "solar pump to roof F4" with lines linestyle 7, \
+     "$TEMP" using 1:7 title "pump speed/3 %" with lines  linestyle 11, \
      85 title "" linetype -1, \
      90 title "" linetype -1, \
      95 title "" linetype -1, \

@@ -18,6 +18,9 @@ set format x "%d/%H"
 set title "Last $i" font ",14"
 set xlabel "timestamp"
 set ylabel "temperature"
+set yrange [0:*]
+set ytics 10
+set mytics 2
 set style line 1 lc rgb '#e41a1c' pt 1 ps 1 lt 1 lw 2 # --- red
 set style line 2 lc rgb '#377eb8' pt 6 ps 1 lt 1 lw 2 # --- blue
 set style line 3 lc rgb '#4daf4a' pt 6 ps 1 lt 1 lw 2 # --- green
@@ -37,7 +40,7 @@ plot "$TEMP" using 1:2 title "roof F1" with lines linestyle 1,\
      "$TEMP" using 1:6 title "tank top F6" with lines linestyle 3,\
      "$TEMP" using 1:3 title "solar pump from roof F2" with lines linestyle 8, \
      "$TEMP" using 1:5 title "solar pump to roof F4" with lines linestyle 7, \
-     "$TEMP" using 1:7 title "pump speed/3 %" with lines  linestyle 11, \
+     "$TEMP" using 1:7 title "pump speed/3 %" with lines linestyle 11, \
      85 title "" linetype -1, \
      90 title "" linetype -1, \
      95 title "" linetype -1, \
